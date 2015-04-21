@@ -1,0 +1,44 @@
+replace Choice(1) CSS from line 903 to 944
+
+@font-face {
+  font-family: Lusitana;
+  src: url(../fonts/Lusitana.eot);
+  src: url(../fonts/Lusitana.eot?#iefix) format("embedded-opentype"), url(../fonts/Lusitana.woff) format("woff"), url(../fonts/Lusitana.ttf) format("truetype"), url(../fonts/Lusitana.svg#Lusitana) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+/* This font face inherits and overrides the previous font face, but only for chrome */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: Lusitana;
+    src: url(../fonts/Lusitana.svg) format("svg");
+  }
+}
+@font-face {
+  font-family: ChoiceCommonIco;
+  src: url(../fonts/icon-choice-common.eot);
+  src: url(../fonts/icon-choice-common.eot?#iefix) format("embedded-opentype"), url(../fonts/icon-choice-common.woff) format("woff"), url(../fonts/icon-choice-common.ttf) format("truetype"), url(../fonts/icon-choice-common.svg#ChoiceCommonIco) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* This font face inherits and overrides the previous font face, but only for chrome */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: ChoiceCommonIco;
+    src: url(../fonts/icon-choice-common.svg) format("svg");
+  }
+}
+@font-face {
+  font-family: ChoicePackagesIco;
+  src: url(../fonts/icon-choice-packages.eot);
+  src: url(../fonts/icon-choice-packages.eot?#iefix) format("embedded-opentype"), url(../fonts/icon-choice-packages.woff) format("woff"), url(../fonts/icon-choice-packages.ttf) format("truetype"), url(../fonts/icon-choice-packages.svg#ChoicePackagesIco) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* This font face inherits and overrides the previous font face, but only for chrome */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: ChoicePackagesIco;
+    src: url(../fonts/icon-choice-packages.svg) format("svg");
+  }
+}

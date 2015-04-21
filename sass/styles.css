@@ -1,0 +1,327 @@
+body {
+  min-height: 2000px; }
+
+.navbar-static-top {
+  margin-bottom: 19px; }
+
+.strong {
+  font-weight: bold; }
+
+.padding-top-30 {
+  padding-top: 30px; }
+
+.padding-top-15 {
+  padding-top: 15px; }
+
+.margin-top-30 {
+  margin-top: 30px; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px; }
+
+.padding-bottom-15 {
+  padding-bottom: 15px; }
+
+.margin-right-30 {
+  margin-right: 30px; }
+
+.filters h4 {
+  margin-bottom: 11px; }
+.filters .criteria-filter {
+  border: 1px solid lightgray; }
+  .filters .criteria-filter ul {
+    padding-left: 15px; }
+    .filters .criteria-filter ul > li > input {
+      margin-right: 5px; }
+  .filters .criteria-filter .btn {
+    width: 100%;
+    text-align: left;
+    border: none; }
+  .filters .criteria-filter label {
+    font-weight: normal;
+    cursor: pointer; }
+  .filters .criteria-filter ul {
+    list-style: none; }
+  .filters .criteria-filter input[type='checkbox'] {
+    cursor: pointer; }
+.filters .slider {
+  margin: 0 auto;
+  display: inherit; }
+.filters .slider-handle {
+  background: grey; }
+.filters .middleTrack .slider-selection {
+  background-image: none;
+  background-color: lightgray; }
+.filters .highTrack .slider-track-high {
+  background: lightgray; }
+.filters .lowTrack .slider-track-low {
+  background: lightgray; }
+.filters .selected {
+  font-weight: bold; }
+.filters .leftSlider .slider {
+  width: 50%;
+  margin-left: 22px;
+  display: inline-block;
+  margin-bottom: 12px; }
+.filters .leftSlider > span {
+  position: relative;
+  top: -5px;
+  left: 12px; }
+.filters .leftSlider p {
+  margin-left: 22px;
+  margin-bottom: 0px; }
+.filters .btn-default.active, .filters .btn-default.focus, .filters .btn-default:active, .filters .btn-default:focus, .filters .btn-default:hover, .filters .open > .dropdown-toggle.btn-default {
+  color: #333;
+  background-color: white;
+  border-color: #ffffff; }
+.filters .well {
+  background-color: #ffffff;
+  border: none;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  padding: 3px;
+  padding-top: 10px; }
+  .filters .well ul {
+    padding-left: 10px; }
+.filters h5 {
+  font-size: 14px;
+  margin-left: 12px;
+  color: black;
+  font-weight: bold; }
+.filters .priceHolder, .filters .capacityHolder {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: -15px; }
+  .filters .priceHolder #priceFrom, .filters .priceHolder #priceTo, .filters .priceHolder #capacityFrom, .filters .priceHolder #capacityTo, .filters .capacityHolder #priceFrom, .filters .capacityHolder #priceTo, .filters .capacityHolder #capacityFrom, .filters .capacityHolder #capacityTo {
+    font-size: 20px; }
+  .filters .priceHolder #priceFrom, .filters .capacityHolder #priceFrom {
+    margin-right: 10px; }
+
+a {
+  cursor: pointer; }
+
+span.glyphicon-question-sign {
+  color: grey; }
+
+span.badge {
+  cursor: pointer; }
+
+.pils {
+  width: 320px;
+  display: inline-block; }
+
+.sorts {
+  right: 0;
+  left: auto; }
+  .sorts .subhead {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 5px; }
+
+.card {
+  border: 1px solid lightgrey;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #e0e0e0;
+  background-color: #ffffff;
+  margin-bottom: 15px; }
+  .card.hovering .detailsLink {
+    background-color: #007CCF; }
+  .card .title {
+    float: left;
+    font-family: "Lusitania", Georgia, Times, serif;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    font-size: 22px; }
+  .card .bestBuy {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: orangered;
+    font-size: 10px;
+    color: white;
+    float: left;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 9px; }
+  .card .productImg {
+    background-color: lightgray;
+    text-align: center;
+    font-size: 12px;
+    height: 180px;
+    padding-top: 85px;
+    background-size: 100%;
+    background-position: center; }
+  .card .surfacedSort {
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid cornflowerblue;
+    background-color: rgba(100, 149, 237, 0.06);
+    padding: 4px;
+    margin-top: 13px;
+    margin-right: 12px; }
+  .card .detailsLink {
+    margin-top: 12px;
+    background-color: #009AF3; }
+  .card .heading {
+    font-weight: bold;
+    font-size: 12px; }
+  .card ul {
+    padding-left: 15px; }
+  .card .glyphicon-question-sign {
+    width: 30px;
+    height: 30px; }
+  .card button {
+    margin-top: 16px;
+    border-radius: 0px; }
+
+.overlay {
+  display: none;
+  left: 0px;
+  position: absolute;
+  font-size: 40px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  cursor: wait; }
+
+.forFilters {
+  opacity: 0.3; }
+
+.forProducts {
+  background-color: #f7f7f7;
+  opacity: 0.7;
+  background-image: url("http://blog.spylight.com/wp-content/themes/spylight/images/ajax-loader.gif.pagespeed.ce.FHB1ZMOn52.gif");
+  background-position-x: 50%;
+  background-position-y: 300px;
+  background-repeat: no-repeat;
+  background-size: 20%; }
+
+.compare {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 134px;
+  background-color: #c9d1cc;
+  opacity: 0.7;
+  z-index: 100; }
+  .compare.content {
+    background-color: transparent;
+    z-index: 101;
+    opacity: 1; }
+    .compare.content > .containerForCompare {
+      margin: 0 auto;
+      width: 50%; }
+      .compare.content > .containerForCompare button {
+        margin-top: 60px; }
+      .compare.content > .containerForCompare > .compareCard {
+        float: left;
+        margin-right: 20px;
+        margin-top: 15px; }
+
+.navbar {
+  height: 4em;
+  background-color: #0066CC;
+  border-bottom: 3px solid #0052A3; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  font-weight: bold; }
+
+.navbar-brand {
+  background: transparent url("../img/logo.png") no-repeat 50% 50%;
+  line-height: 3.125em;
+  margin: 5px 19px 10px 19px;
+  display: block;
+  background-size: contain;
+  width: 110px; }
+
+.breadcrumb {
+  font-size: 10px;
+  font-weight: bold;
+  background-color: transparent; }
+  .breadcrumb li:first-child {
+    background-color: #178828; }
+    .breadcrumb li:first-child a {
+      color: white; }
+  .breadcrumb li > a {
+    color: #178828; }
+
+h2 {
+  font-family: "Lusitania", Georgia, Times, serif; }
+
+.hero {
+  background-image: url("../img/washing-machine.jpg");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  background-size: 66%; }
+
+a {
+  color: #981D7F; }
+
+.memberScore, .choiceScore, .price {
+  font-family: "Lusitania", Georgia, Times, serif;
+  font-size: 35px;
+  margin-top: -20px;
+  display: inline-block;
+  float: left; }
+
+.choiceScore {
+  font-weight: bold; }
+
+.percentSign {
+  float: left;
+  margin-top: -9px; }
+
+.dollarSign {
+  float: right;
+  margin-top: 20px; }
+
+.price {
+  float: right;
+  margin-top: 12px;
+  font-size: 24px; }
+
+.criteria-filter {
+  background-color: #ffffff;
+  margin-bottom: 10px; }
+
+.productFinder {
+  background-color: #f2f7fa; }
+
+.sortText {
+  font-weight: bold;
+  margin-right: 7px; }
+
+.btn {
+  border-radius: 0; }
+
+.viewBtns {
+  margin-bottom: 5px; }
+  .viewBtns button {
+    background-color: transparent; }
+
+.sortsHolder {
+  margin-bottom: 5px;
+  margin-right: -15px; }
+  .sortsHolder button {
+    border: 3px solid #009ce7;
+    font-weight: bold; }
+
+.badge {
+  background-color: #009ce7;
+  font-size: 14px; }
+
+.tooltip {
+  font-size: 16px;
+  padding: 10px;
+  line-height: 30px; }
+
+.glyphicon-question-sign {
+  cursor: pointer; }
+
+/*# sourceMappingURL=styles.css.map */
